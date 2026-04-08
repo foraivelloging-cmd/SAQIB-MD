@@ -1,0 +1,19 @@
+{
+  "name": "Saqib-MD",
+  "description": "WhatsApp MD bot (Baileys)",
+  "repository": "https://github.com/foraivelloging-cmd/SAQIB-MD",
+  "keywords": ["whatsapp", "baileys", "bot", "node"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "ProBoy-MD session string (e.g. ProBoy-MD!)",
+      "required": true,
+      "value": ""
+    }
+  }
+}
+
